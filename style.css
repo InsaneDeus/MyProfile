@@ -1,0 +1,215 @@
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  font-weight: 400;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+  font-family: OpenSans-Regular, arial, sans-serif;
+  letter-spacing: 0.02em;
+  margin: 0;
+  color: #363636;
+}
+
+/*Базавая информация*/
+
+.person {
+  background-color: #F7F7F7;
+  position: relative;
+}
+
+.download-button {
+  position: absolute;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #41587f;
+	width: 150px;
+	height: 40px;
+  border-radius: 10px;
+  border: 0px;
+  right: 20px;
+  top: 20px;
+}
+
+.download-button:hover {
+  background-color: #4a6491;
+  top: 18px;
+  box-shadow: 0 2px #26334a;
+}
+
+.download-button:active {
+  background-color: #516d9e;
+  top: 22px;
+  box-shadow: 0 0;
+}
+
+.header-content-box {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.person-image {
+  margin-left: 30px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.header-text-container {
+  margin-left: 50px;
+}
+
+.person-name {
+  font-family: OpenSans-Bold;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.person-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.person-list-item {
+  color: #737373;
+  margin-bottom: 5px;
+}
+
+.item-name {
+  display: inline-block;
+  width: 200px;
+}
+
+.person-item {
+  margin-left: 0;
+  font-size: 20px;
+  color: #363636;
+}
+
+.person-link {
+  text-decoration: none;
+}
+
+/*Главная информация*/
+
+.content{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.content-list {
+  list-style: none;
+  padding-left: 30px;
+}
+
+.content-list-item {
+  margin-bottom: 40px;
+}
+
+.item-title {
+  font-family: OpenSans-Bold;
+  font-size: 20px;
+  color: #737373;
+  margin-top: 0;
+}
+
+.position {
+  display: block;
+  font-family: OpenSans-Bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.item-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.item-list-item {
+  margin-bottom: 10px;
+}
+
+.item-text {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.specialty {
+  font-family: OpenSans-Bold;
+}
+
+/*Контактная информация*/
+
+.contacts {
+  background-color: #222B3A;
+  height: 100px;
+  position: relative;
+}
+
+.footer-links {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+.footer-link {
+  display: block;
+  font-family: OpenSans-Bold;
+  font-size: 25px;
+  color: #414F68;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 32px;
+}
+
+.footer-link:first-child {
+  margin-right: auto;
+  margin-left: 30px
+}
+
+.footer-download-button {
+  position: absolute;
+  background-color: inherit;
+	width: 60px;
+	height: 60px;
+  border-radius: 10px;
+  border: 3px solid #414F68;
+  right: 20px;
+  top: 20px;
+}
+
+.footer-download-button:hover {
+  top: 18px;
+  box-shadow: 0 2px #414F68;
+}
+
+.footer-download-button:active {
+  top: 20px;
+  box-shadow: 0 0;
+}
+
+.svg-download-image {
+  width: 40px;
+}
